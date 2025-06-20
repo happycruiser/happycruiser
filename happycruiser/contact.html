@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Us | Happy Cruiser</title>
+  <meta name="description" content="Contact the Happy Cruiser team for help with cruise planning, questions, or feedback. We love helping Aussie families!">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav>
+      <a href="/admin/" class="admin-link">Admin</a>
+      <a href="/">Home</a>
+      <a href="/about.html">About/FAQ</a>
+      <a href="/blog/">Blog</a>
+      <a href="/contact.html" style="color:#ff6d28;">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <div class="main-box">
+      <h1>Contact Happy Cruiser</h1>
+      <p>We’re here to help Aussie families book and enjoy their dream cruise holidays. Have a question, suggestion, or just want to say hi? Fill out the form below and our friendly team will get back to you fast.</p>
+      <form action="mailto:your@email.com" method="POST" enctype="text/plain" class="contact-form" style="display:flex;flex-direction:column;gap:1.3em;max-width:500px;">
+        <label><span style="font-weight:bold;">Your Name:</span>
+          <input type="text" name="name" required style="width:100%;padding:0.7em;border-radius:9px;border:1px solid #e3d3b6;">
+        </label>
+        <label><span style="font-weight:bold;">Your Email:</span>
+          <input type="email" name="email" required style="width:100%;padding:0.7em;border-radius:9px;border:1px solid #e3d3b6;">
+        </label>
+        <label><span style="font-weight:bold;">Your Message:</span>
+          <textarea name="message" rows="5" required style="width:100%;padding:0.7em;border-radius:9px;border:1px solid #e3d3b6;"></textarea>
+        </label>
+        <button class="main-btn" type="submit">Send Message</button>
+      </form>
+      <div class="trust-badges" style="margin-top:2em;">
+        <span>🇦🇺 Aussie Owned</span>
+        <span>👨‍👩‍👧‍👦 Family Friendly</span>
+        <span>🔒 Privacy Protected</span>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <p>© 2025 Happy Cruiser · <a href="/about.html">About & FAQ</a> · <a href="/privacy.html">Privacy</a> · <a href="/contact.html">Contact</a></p>
+  </footer>
+</body>
+</html>
